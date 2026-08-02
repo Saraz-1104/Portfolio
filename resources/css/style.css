@@ -1,0 +1,41 @@
+h1{
+  font-family: "Rainy Hearts", sans-serif;
+}
+
+*{
+  font-family: "VT323", monospace;
+}
+body {
+  margin: 0 10rem;
+  background-color: #ffd2e5;
+}
+
+@font-face {
+  font-family: "Rainy Hearts";
+  src: url("../fonts/RainyHearts.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+li a{
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.logo{
+  font-weight: bold; 
+}
