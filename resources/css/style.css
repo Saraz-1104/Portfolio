@@ -1,5 +1,12 @@
-h1{
+h1,h2,h3,h4,h5,h6{
   font-family: "Rainy Hearts", sans-serif;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
 }
 
 *{
@@ -7,7 +14,7 @@ h1{
 }
 body {
   margin: 0 10rem;
-  background-color: #ffecec;
+  background-color: #FFECEC;
 }
 
 @font-face {
@@ -29,13 +36,36 @@ nav ul {
   justify-content: space-around;
 }
 
+nav a {
+  position: relative;
+}
+
 li a{
   text-decoration: none;
   padding: 1rem;
-  font-size: 1.3rem;
-  color: black;
+  font-size: 1.6rem;
+  color:  #8F5A70;;
 }
 
 .logo{
   font-weight: bold; 
+}
+
+nav a:hover{
+  color: #6F8F5F;
+}
+
+li a::before{
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #6F8F5F;
+  transition: all .5s;
+}
+
+li a:hover::before{
+  width: 100%;
 }

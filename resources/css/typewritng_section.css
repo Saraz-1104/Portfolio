@@ -1,6 +1,7 @@
 .typewriter_animation{
   display: inline-block;
   margin-top: 4rem;
+  margin-bottom: 0;
 }
 
 .text {
@@ -12,7 +13,7 @@
   font-size: 5rem;
   letter-spacing: 10px;
   margin: 0;
-  color: #74004c;
+  color: #8F5A70;
 }
 
 .line1 {
