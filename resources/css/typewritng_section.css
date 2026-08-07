@@ -1,0 +1,48 @@
+.typewriter_animation{
+  display: inline-block;
+  margin-top: 4rem;
+}
+
+.text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
+  width: 0;
+  font-size: 5rem;
+  letter-spacing: 10px;
+  margin: 0;
+  color: #74004c;
+}
+
+.line1 {
+  animation: typing 2s steps(22) forwards,
+             cursor .5s step-end 4, 
+             hide-cursor 0s 2s forwards;
+}
+
+.line2 {
+  border-right-color: transparent;
+
+  animation:
+    show-cursor 0s 2s forwards,
+    typing 2s steps(24) 2s forwards,
+    cursor .5s step-end 2s infinite;
+}
+
+@keyframes cursor { 50% { border-color: transparent; } } 
+
+@keyframes typing {
+  from { width: 0; }
+  to   { width: calc(24ch + 22 * 10px); } 
+}
+
+@keyframes hide-cursor {
+  to { border-color: transparent; }
+}
+
+@keyframes show-cursor {
+  to {
+    border-right-color: black; 
+  }
+}
