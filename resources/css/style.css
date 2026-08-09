@@ -14,7 +14,7 @@ h2{
 }
 body {
   margin: 0 10rem;
-  background-color: #FFECEC;
+  background-color: #FDF2F0;
 }
 
 @font-face {
@@ -44,7 +44,7 @@ li a{
   text-decoration: none;
   padding: 1rem;
   font-size: 1.6rem;
-  color:  #8F5A70;;
+  color:  #B0577A;
 }
 
 .logo{
@@ -52,7 +52,7 @@ li a{
 }
 
 nav a:hover{
-  color: #6F8F5F;
+  color: #4F7A52;
 }
 
 li a::before{
@@ -62,7 +62,7 @@ li a::before{
   left: 0;
   width: 0;
   height: 3px;
-  background-color: #6F8F5F;
+  background-color: #4F7A52;
   transition: all .5s;
 }
 
