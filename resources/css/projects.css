@@ -1,0 +1,35 @@
+.projects_section{
+  margin-top: 4rem;
+}
+
+.title_project{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+video{
+  width: 30rem;
+  height: 20rem;
+  object-fit: contain;
+}
+
+.project_description{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.project_description p{
+  font-size: 1.5rem;
+}
+
+.project_description.is-hidden{
+  display: none;
+}
+
+.title_project.open .arrow{
+  transform: rotate(90deg);
+}
+
