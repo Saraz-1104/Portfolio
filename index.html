@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sara's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,12 +21,14 @@
     <link rel="stylesheet" href="resources/css/about_me.css" />
     <link rel="stylesheet" href="resources/css/skills.css" />
     <link rel="stylesheet" href="resources/css/projects.css" />
+    <link rel="stylesheet" href="resources/css/responsive.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <h1 class="logo">Sara's Rukn</h1>
-
+      <h1 class="logo">Sara's Rukn</h1>
+      <button class="open-menu" id="open"><i class="bi bi-list"></i></button>
+      <nav id="nav">
+        <button class="close-menu" id="close"><i class="bi bi-x"></i></button>
         <ul>
           <li><a href="#">About Me</a></li>
           <li><a href="#">Skills</a></li>
@@ -35,6 +41,11 @@
       <div class="typewriter_animation">
         <p class="text line1">Hello, my name is Sara</p>
         <p class="text line2">and I'm a web developer.</p>
+      </div>
+      <div class="typewriter_animation_tablet">
+        <p class="text_for_tablet">
+          Hello,my name is Sara and I'm a web developer
+        </p>
       </div>
     </section>
     <section class="aboutMe_section">

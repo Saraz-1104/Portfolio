@@ -4,6 +4,10 @@
   margin-bottom: 0;
 }
 
+.typewriter_animation_tablet{
+  display:none;
+}
+
 .text {
   display: inline-block;
   white-space: nowrap;

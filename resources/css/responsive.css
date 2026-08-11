@@ -1,0 +1,92 @@
+@media only screen and (max-width:780px){
+
+  body {
+    margin: 0 5rem;
+  }
+  .open-menu, .close-menu {
+    display: block;
+    border: none;
+    font-size: 1.75rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  nav.visible{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+    background-color: #B0577A;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+  }
+  ul{
+    flex-direction: column;
+    align-items: end;
+  }
+
+  li a{
+    color: #FBEAEE; 
+  }
+
+  nav a:hover{
+  color: #a7e3ab;
+}
+
+  /*Typewritting animation*/
+  .typewriter_animation{
+    display: none;
+  }
+  .typewriter_animation_tablet{
+    display: block;
+    font-size: 5rem;
+    color: #5C3A45;
+  }
+
+  /*about me section*/
+
+  .aboutMe_div img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 1rem;
+  }
+
+  .aboutMe_div{
+    gap: 1rem;
+    display: block;
+  }
+
+  /*projects section*/
+  .project_description{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .typewriter_animation_tablet{
+    display: block;
+    font-size: 3rem;
+    color: #5C3A45;
+  }
+
+  body{
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+}

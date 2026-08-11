@@ -15,6 +15,7 @@ h2{
 body {
   margin: 0 10rem;
   background-color: #FDF2F0;
+  padding: 1rem 1rem;
 }
 
 @font-face {
@@ -23,17 +24,23 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+.open-menu, .close-menu{
+  display: none;
+}
 
-nav{
+header{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+
+
 nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
+  gap: 1rem;
 }
 
 nav a {

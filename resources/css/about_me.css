@@ -5,10 +5,12 @@
 .aboutMe_div{
   display: flex;
   gap: 3rem;
+  align-items: flex-start;
 }
 
 .aboutMe_div p {
   font-size: 2rem;
+  margin: 0;
 }
 
 .aboutMe_div img{
